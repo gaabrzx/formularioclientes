@@ -15,7 +15,7 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 15px;
   border-radius: 15px;
-  width: 80%;
+  width: 30%;
   color: #fff;
 }
 
@@ -86,4 +86,22 @@ legend {
 
 #submit:hover {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 1200px) {
+  .box {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .box {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    width: 80%;
+  }
 }
